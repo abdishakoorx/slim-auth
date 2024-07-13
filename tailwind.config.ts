@@ -22,18 +22,22 @@ const config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
+        background: "#fff",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#4285F4",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "#34A853",
           foreground: "hsl(var(--secondary-foreground))",
         },
+        divider: {
+          DEFAULT: "#DADCE0",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
+          DEFAULT: "#EA4335",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
@@ -41,7 +45,7 @@ const config = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
+          DEFAULT: "#FBBC05",
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
